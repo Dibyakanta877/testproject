@@ -1,6 +1,6 @@
 <mvc:View controllerName="project1sapui5.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="welcome cicd">
+    <Page id="page" title="welcome cicd new gggg ">
     </Page>
 </mvc:View>
