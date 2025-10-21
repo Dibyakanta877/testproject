@@ -1,0 +1,17 @@
+<mvc:View controllerName="project1dest.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+ 
+  <VBox id="_IDGenVBox">
+    <!-- Property Binding -->
+    <Text id="_IDGenText1" text="First Employee: {myModel>/employees/0/name}" />
+
+    <!-- Aggregation Binding -->
+    <List id="_IDGenList" items="{myModel>/employees}">
+      <StandardListItem id="_IDGenStandardListItem"
+        title="{myModel>name}"
+        description="{myModel>role}" />
+    </List>
+  </VBox>
+
+</mvc:View>
